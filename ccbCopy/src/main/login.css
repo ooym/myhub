@@ -1,0 +1,159 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"黑体";
+}
+body{
+	background-color：#f5f5f5;
+	color:#666
+}
+header{
+	width:1000px;
+	height:52px;
+	margin:20px auto;
+}
+header a{
+	margin-left:20px;
+	float:left;
+}
+header span{
+	margin-left:10px;
+	font-size:24px;
+	display:block;
+	float:left;
+	margin-top:10px;
+}
+.form-panel{
+	margin:0px auto;
+}
+.form-panel form{
+	width:280px;
+	background-color:rgba(0,0,0,0.3);
+/*	border:2px solid red;  */
+	float:right;
+	color:#fff;
+	margin-top:-350px;
+	margin-right:180px;
+	padding-top:18px;
+}
+.form-panel h2{
+	border-bottom:1px solid #fff;
+	padding-bottom:8px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:20px;
+}
+.form-panel h2 a{
+	color:#fff;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:lighter;
+	float:right;
+	margin-top:12px;
+	margin-right:10px;
+}
+
+.field{
+	position:relative;/*为了内部元素以我定位*/
+	margin:12px 10px;
+}
+.field input{
+	width:246px;
+	height:22px;
+	padding:5px 5px;
+}
+.field img{
+	position:absolute;
+	top:4px;
+	right:5px;
+}
+.error{
+	color:#f00;
+}
+
+.ok{
+	color:#0f0;
+}
+.field span{
+	display:block;
+	font-size:12px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.checkbox{
+	margin-left:12px;
+}
+.checkbox label{
+	font-size:12px;
+	position:relative;
+	top:-2px;
+	left:0px;
+}
+.checkbox a{
+	text-decoration: none;
+	font-size:12px;
+	color:#fff;
+	position:relative;
+	top:-3px;
+	left:139px;
+}
+.btn{
+	margin-left:10px;
+	padding-bottom:20px;
+}
+.btn input{
+	display:block;
+	width:260px;
+	height:37px;
+	background:-webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+	border:none;
+	border-radius: 3px;
+	font-size:18px;
+	color:#fff;
+	cursor: pointer;
+	font-family:"黑体";
+}
+/*鼠标在点击和释放之间，成之为级或*/
+/*active为激活时的样式*/
+.btn input:active{
+	color:#ff0;
+}
+.server{
+	width:1000px;
+	margin:0px auto;
+	
+}
+.server li{
+	width:65px;
+	float:left;
+	list-style:none;
+	margin:40px 92px;
+}
+
+.sever li p{
+	font-family:"黑体";
+	font-size:20px;
+	ont-weight: inherit;
+}
+
+.ok{
+	color:#0f0;
+}
+.error{
+	color:#f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

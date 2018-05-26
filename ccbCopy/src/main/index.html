@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>copy from CCB</title>
+<link rel="stylesheet" type="text/css" href="myCss.css">
+<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slider.css">
+<link rel="stylesheet" href="login.css" type="text/css">
+<script type="text/javascript">
+window.onload=function(){
+	//a标签会被点亮
+	 $("#head_1 a").hover(function(){
+		  $(this).css("color","white");
+	  },function(){
+		  $(this).css("color","#1dd9e2");
+	  });
+	 
+	}
+
+
+
+
+</script>
+<style type="text/css">
+.form-panel{
+position:absolute;
+
+}
+#log{
+position:relative;
+z-index:20;
+}
+
+
+#cb{
+width:1430px;
+height:418px;
+clear:both;
+}
+#center_1{
+margin-left:50px;
+width:1200px;
+height:50px;
+border-bottom:1px solid #0066B3;
+line-height: 50px;
+}
+#center_1 #span_1{
+float:left;  
+margin-left:5px;
+}
+#center_1 img{
+float:left;
+margin-left:30px;
+margin-top:18px;
+}
+#center_2 img{
+display:block;
+width:1430x;
+height:700px;
+}
+
+</style>
+</head>
+<body>
+  <div id="head_1">
+    <div id="head_1_left"></div>
+      <div id="head_d1"><a>个人客户</a><a>私人银行</a><a>公司机构</a><a>小微企业</a></div>
+      <div id="head_d2"><img src="../source/sr_icon.png"></div>
+    <div id="head_1_right">
+      <div id="head_d3">
+      <span>客服热线：95533</span><img src="../source/zx_icon.png"><a>客户服务</a><span>|</span><a>建行集团</a><a>国内分行</a><a>网点及ATM</a>
+      </div>
+    </div>
+  </div>
+  <div id="head_2">
+    <img id="logo" src="../source/logo.png">
+  </div>
+  
+  
+  
+    <div class="form-panel">
+  
+  <div class="slider"> 
+  
+ <ul class="slider-main"> 
+  <li class="slider-panel"> 
+  <a href="#" target="_blank"><img alt="图呢" title="洗洗屁" src="../source/back0.jpg"></a> 
+  </li> 
+  <li class="slider-panel"> 
+  <a href="#" target="_blank"><img alt="图呢" title="洗洗屁" src="../source/back1.png"></a> 
+  </li> 
+  <li class="slider-panel"> 
+  <a href="#" target="_blank"><img alt="图呢" title="洗洗屁" src="../source/back3.jpg"></a> 
+  </li> 
+  <li class="slider-panel"> 
+  <a href="#" target="_blank"><img alt="图呢" title="洗洗屁" src="../source/back2.png"></a> 
+  </li> 
+ </ul> 
+ <div class="slider-extra"> 
+  <ul class="slider-nav"> 
+  <li class="slider-item">1</li> 
+  <li class="slider-item">2</li> 
+  <li class="slider-item">3</li> 
+  <li class="slider-item">4</li> 
+  </ul> 
+  <div class="slider-page"> 
+  <a class="slider-pre" href="javascript:;;"><</a> 
+  <a class="slider-next" href="javascript:;;">></a> 
+  </div> 
+ </div> 
+  </div> 
+ <!-- 登陆div -->
+
+<div id="log">
+    <form action="" method="POST" onsubmit="return checkUser()*checkPwd()==1">
+      <h2>登陆建设银行
+        <a href="#">新用户注册</a>
+      </h2>
+      <div class="field">
+        <input type="text" placeholder="请输入用户名"  id="user_name" onblur="checkUser();">
+        <img src="../source/yhm.png">
+        <span class="msg_user" id="msg_user">5~10位英文数字下划线</span>
+        </div>
+        <div class="field">
+        <input type="password" placeholder="请输入密码"  id="password" onblur="checkPwd();">
+        <img src="../source/mm.png">
+        <span class="msg_pwd" id="msg_pwd">5~10位英文数字下划线</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="save">
+        <label for="save">自动登陆</label>
+        <a href="#">忘记密码？</a>
+      </div>
+      <div class="btn">
+        <input type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;陆">
+      </div>
+    </form>
+  </div>
+ </div>
+
+<div id="cb"></div>
+
+
+<div id="center_1">
+  <img src="../source/Login_1.png">
+  <span id="span_1">最新公告：</span>
+  <span class="Infocontent">
+  <MARQUEE style="float:left;margin-left:20px;width:950px;" onmouseover="this.stop();this.scrollDelay=50;" onmouseout="this.start();this.scrollDelay=1" scrollAmount=4 scrollDelay=1 direction=left >
+	<script type="text/javascript">
+		var B2CafficheURL ="关于实施《非居民金融账户涉税信息尽职调查管理办法》存量个人低净值账户尽职调查的公告:-------这个网页做的贼6-------|http://www.ccb.com/cn/v3/include/notice/20180328_1522223777.html"; 
+		if(B2CafficheURL != undefined && B2CafficheURL!="null" && B2CafficheURL != ""){
+			var arr = B2CafficheURL.split('|');
+			if (arr.length == 1) {
+				try {
+				//document.writeln('<a onclick=window.open("' + arr[0] + '","","top=0,left=0,scrollbars=yes,location=no,resizable=yes") href="javascript:void(0)">' + arr[0] + '</a>');
+				} catch (e) {}
+				} else if (arr.length > 1) {
+				try {
+				document.writeln('<a onclick=window.open("' + arr[1] + '","","top=0,left=0,scrollbars=yes,location=no,resizable=yes") href="javascript:void(0)">' + arr[0] + '</a>');
+				ableNotice = true;
+					} catch (e) {}
+		      }
+		}
+    </script>
+  </MARQUEE>
+</span>
+</div>
+
+
+<!-- 中下部分 -->
+<div id="center_2">
+<img src="../source/foot.jpg">
+</div>
+ 
+ 
+ 
+ 
+
+
+</body>
+<script type="text/javascript" src="./slider.js"></script>
+</html>
